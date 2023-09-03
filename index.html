@@ -9,7 +9,8 @@
   <link rel="shortcut icon" href="./image/logo-removebg-preview.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-</head>
+    <script src="./javascript.js"></script>
+  </head>
 
 <body>
   <!-- navber section  -->
@@ -18,14 +19,19 @@
       <div class="logo">
         <img src="./image/logo-removebg-preview.png" alt="logo">
       </div>
-      <div class="navber">
-        <div class="nav-item">
-          <a href="#">Home</a>
-          <a href="#about">About</a>
-          <a href="#service">Service</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#blog">Blog</a>
-          <a href="#contact">Contact</a>
+      <div class="nav-elements">
+        <div class="navber" id="navber">
+          <div class="nav-item">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="navber-icon">
+          <i onclick="nav_btn()" class="bi bi-list"></i>
         </div>
       </div>
     </div>
@@ -558,7 +564,6 @@
   </footer>
 
 
-  <script src="./javascript.js"></script>
   <!-- bootstrap script  -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">

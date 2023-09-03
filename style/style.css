@@ -25,6 +25,14 @@ header {
     height: 75px;
 }
 
+.nav-elements{
+    margin-block: auto;
+}
+
+.navber-icon{
+    display: none;
+}
+
 .navber {
     margin-block: auto;
 }
@@ -513,6 +521,35 @@ form button{
 }
 
 @media (max-width: 767px) {
+    
+
+    .navber-icon{
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: calc(2px + 3vw);
+    }
+
+    #navber{
+        display: none;
+        position: relative;
+        background-image: linear-gradient(to bottom, #dadada, #f9f9f9);
+    }
+
+    .nav-item{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 1%;
+        margin: calc(2px + 3vw);
+        border: 1px solid #313131;
+    }
+
+    .nav-item a:hover{
+        border: 1px solid #313131;
+    }
+    
     .besic-info, .work-list, .short-contact-info{
         display: block;
     }
