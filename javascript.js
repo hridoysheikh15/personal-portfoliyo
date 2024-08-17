@@ -16,3 +16,5 @@ function my_age() {
     let age = Math.abs(ageDate.getUTCFullYear() - 1970);
     res.innerHTML = age;
 }
+
+my_age();
