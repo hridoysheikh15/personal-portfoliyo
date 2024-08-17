@@ -14,7 +14,7 @@ function my_age() {
     let timeDifference = currentDate - birthDate;
     let ageDate = new Date(timeDifference); 
     let age = Math.abs(ageDate.getUTCFullYear() - 1970);
-    res.innerHTML = age;
+    res.innerHTML=age;
 }
 
 my_age();
